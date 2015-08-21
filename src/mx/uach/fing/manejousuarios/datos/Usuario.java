@@ -1,5 +1,9 @@
 package mx.uach.fing.manejousuarios.datos;
 
+import java.util.Arrays;
+import java.util.List;
+import mx.uach.fing.manejousuarios.dao.UsuariosDao;
+
 /**
  * Clase que se encarga de manejar los usuarios del sistema
  * @author Anaíza Araiza García
@@ -7,6 +11,8 @@ package mx.uach.fing.manejousuarios.datos;
  */
 public class Usuario {
     
+    public static final String TABLA = "usuarios";
+    public static final String[] FIELDS = {"id", "nombre", "primer_apellido", "edad"};
     private Integer id;
     private String nombre;
     private String primerApellido;
@@ -25,6 +31,13 @@ public class Usuario {
                     this.primerApellido));
         }
         return id;
+    }
+
+    public Usuario(Integer id, String nombre, String primerApellido, Integer edad) {
+        this.id = id;
+        this.nombre = nombre;
+        this.primerApellido = primerApellido;
+        this.edad = edad;
     }
 
     /**
@@ -76,6 +89,18 @@ public class Usuario {
         this.edad = edad;
     }
     
-    
+    public String fieldsToString(){
+        String fieldsStr = "";
+        List<String> fieldsToConvert = Arrays.asList(FIELDS);
+        for (String field : fieldsToConvert) {
+            fieldsStr = String.format("%s, %s", fieldsStr, field);
+        }
+        return fieldsStr;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s %s %s %s", this.id, this.nombre, this.primerApellido, this.edad);
+    }
     
 }
