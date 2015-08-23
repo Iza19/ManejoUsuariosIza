@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package mx.uach.fing.manejousuarios.dao.vistas;
+package mx.uach.fing.manejousuarios.vistas;
 
 import java.beans.PropertyChangeSupport;
 import java.util.List;
