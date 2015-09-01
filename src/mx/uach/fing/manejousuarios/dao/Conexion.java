@@ -36,7 +36,7 @@ public class Conexion {
         if (connection == null){
             String driver = "org.postgresql.Driver";
             String cadenaConexion = "jdbc:postgresql://localhost:5432/usuarios";
-            String user = "usuarios";//usuario de postgres
+            String user = "riamair";//usuario de postgres
             String password = "123456";//password del usuario
             try {
                 Class.forName(driver);

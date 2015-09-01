@@ -3,12 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/riamair/NetBeansProjects/ManejoUsuarios/src/mx/uach/fing/manejousuarios/datos/Usuario.java</file>
-            <file>file:/Users/riamair/NetBeansProjects/ManejoUsuarios/src/mx/uach/fing/manejousuarios/dao/vistas/Usuarios.java</file>
-            <file>file:/Users/riamair/NetBeansProjects/ManejoUsuarios/src/mx/uach/fing/manejousuarios/dao/UsuariosDao.java</file>
-            <file>file:/Users/riamair/NetBeansProjects/ManejoUsuarios/src/mx/uach/fing/manejousuarios/controlador/Usuarios.java</file>
-            <file>file:/Users/riamair/NetBeansProjects/ManejoUsuarios/src/mx/uach/fing/manejousuarios/dao/Conexion.java</file>
-            <file>file:/Users/riamair/NetBeansProjects/ManejoUsuarios/src/mx/uach/fing/manejousuarios/dao/Crud.java</file>
+            <file>file:/Users/riamair/Proyectos/ManejoUsuariosIza/src/mx/uach/fing/manejousuarios/dao/UsuarioDao.java</file>
+            <file>file:/Users/riamair/Proyectos/ManejoUsuariosIza/src/mx/uach/fing/manejousuarios/controlador/Usuarios.java</file>
+            <file>file:/Users/riamair/Proyectos/ManejoUsuariosIza/src/mx/uach/fing/manejousuarios/dao/Conexion.java</file>
+            <file>file:/Users/riamair/Proyectos/ManejoUsuariosIza/src/mx/uach/fing/manejousuarios/dao/Crud.java</file>
         </group>
     </open-files>
 </project-private>
